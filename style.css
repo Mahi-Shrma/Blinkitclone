@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin:0%;
+    padding:0%;
+    font-family:roboto;
+}
+#vertical_line{
+    height:80px;
+    border:1px solid lightgray;
+}
+#nav_delivery>h5{
+    font-weight:800;
+    margin:0px;
+}
+#nav_delivery>p{
+    margin:0px;
+}
+#nav_search{
+    border:1px solid #eeeeee;
+    background-color: #f8f8f8;
+    border-radius:5px;
+    width:40vw;
+    padding-inline:10px;
+}
+#nav_search>input{
+    border:none;
+    background-color:transparent;
+    width:95%;
+    height:45px;
+    
+}
+.section-2,.section-4{
+    width:85vw;
+    margin:auto;
+}
+.section-1, .section-1 img{
+    width:95%;
+    padding-left:2px;
+}
+.scrollable_div{
+    white-space:nowrap;
+    margin: 0 16px;
+     overflow:hidden;
+    overflow-x:scroll;
+}
+.scrollable_div>img{
+    display:inline-block;
+    width:360px;
+    padding:5px;
+}
+.section-3>img{
+   width:130px;
+    height: 190px;
+}
+.section-3{
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+.scrollable_list{
+    white-space-collapse:nowrap;
+    overflow-x:scroll;
+    gap:30px;
+}
+.product-card{
+    width:180px;
+    padding:3px;
+    border:1px solid lightgrey;
+    border-radius:10px;
+    margin:0px;
+}
+.scrollable_list img{
+    width:150px;
+}
+.details{
+white-space:wrap;
+}
+.weight{
+    font-size: 15px;
+    color:#6a6a6a;
+}
+td,.footer-3{
+    color:#666;
+}
+.table-1,.table-2{
+    line-height: 40px;
+    column-gap: 190px;
+}
+.footer-2{
+    margin:25px;
+    padding:2px;
+    /* margin-left: 40px; */
+}
+.description p{
+    font-size: 0.8rem;
+}
+.download{
+    gap:20px;
+}
+.icons{
+  gap:10px;
+}
+@media screen and (max-width:768px) {
+nav{
+    flex-direction: column;
+    padding: 10px;
+}
+#vertical_line{
+    display:none;
+}
+#nav_delivery{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+#nav_search{
+    width:90vw;
+    display: flex;
+    justify-content: center;
+    padding-inline:2px;
+}
+#nav_search>i{
+    margin-top: 13px;
+    padding-right: 4px;
+}
+.nav_search>input{
+    width:auto;
+}
+.section-1 img{
+    display: none;
+}
+.footer-1{
+    flex-direction: column;
+    align-items: center;
+}
+.table-1,.table-2{
+    width: 100%;
+}
+.table-1>h4,.table-2>h4{
+    margin-left:30px;
+}
+td{
+    padding-left: 25px;
+}
+.footer-2{
+    flex-direction: column;
+    align-items: center;
+}
+.description p{
+    width:100%;
+}
+.downloads p{
+    text-align: center;
+}
+.icons{
+    margin-bottom: 20px;
+}
+.footer-3 p{
+    text-align: center;
+}
+}
+
+   
+
+ 
